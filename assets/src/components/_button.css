@@ -3,6 +3,7 @@
   font-family: var(--font-accent);
   font-size: 1.5rem;
   padding: 0.5rem 2rem;
+  text-decoration: none;
 }
 
 .btn--primary {
