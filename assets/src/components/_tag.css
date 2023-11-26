@@ -7,12 +7,14 @@
 
 .skill__tag--default {
   color: var(--color-primary);
+  border: 1px solid var(--color-primary);
   background: var(--color-secondary);
 }
 
 .skill__tag--inverted {
   color: var(--color-secondary);
   border: 1px solid var(--color-secondary);
+  background: var(--color-primary);
 }
 
 /* TAG END */

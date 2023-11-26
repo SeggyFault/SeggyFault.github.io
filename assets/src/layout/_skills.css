@@ -4,38 +4,68 @@
   display: flex;
   background: var(--color-primary);
   height: 100vh;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  .skills__img {
-    margin-right: 4rem;
+  background-image: url("./img/skills-img.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  @media only screen and (min-width: 600px) {
+    justify-content: flex-end;
   }
+
   .skills__group {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
+    @media only screen and (min-width: 600px) {
+      align-items: flex-start;
+    }
+    @media only screen and (min-width: 601px) and (max-width: 1120px) {
+      margin-left: 4rem;
+    }
     /* skill */
     .skill {
       margin-bottom: 4rem;
+      width: 100%;
       .skill__header {
         display: flex;
         justify-content: stretch;
         align-items: center;
+        width: 100%;
+        @media only screen and (min-width: 600px) {
+          align-items: left;
+        }
+
         .skill__title {
+          text-align: center;
           font-family: var(--font-accent);
           font-size: var(--font-size-4);
           font-weight: var(--font-normal);
           color: var(--color-secondary);
           margin: 0 1rem 0 0;
+          @media only screen and (min-width: 600px) {
+            text-align: left;
+          }
         }
         .line {
           height: 3px;
           width: 100%;
           background: var(--color-secondary);
+          &:first-child {
+            @media only screen and (min-width: 600px) {
+              display: none;
+            }
+          }
         }
       }
       .skill__list {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
+        @media only screen and (min-width: 600px) {
+          justify-content: flex-start;
+          margin-right: 4rem;
+        }
       }
     }
   }
