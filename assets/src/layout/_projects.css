@@ -17,14 +17,19 @@
     }
     .projects__group {
       display: flex;
-      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      flex-direction: column;
+      @media only screen and (min-width: 600px) {
+        flex-direction: row;
+      }
     }
   }
 }
 /* PROJECTS END */
 .project__card {
-  max-width: 300px;
-  margin: 0 0.5rem;
+  width: 300px;
   background-color: var(--color-secondary);
   border: 1px solid var(--color-primary);
   padding: 0.5rem;
