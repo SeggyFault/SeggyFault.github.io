@@ -265,7 +265,7 @@ p {
 .skills {
   display: flex;
   background: var(--color-primary);
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(/images/skills-img.png?f7509b5eb5a080358169f15cb48110ae);
   background-repeat: no-repeat;
   background-position: left;
@@ -286,7 +286,7 @@ p {
       align-items: flex-start
   }
     }
-@media only screen and (min-width: 601px) and (max-width: 1120px) {
+@media only screen and (min-width: 600px) and (max-width: 1180px) {
 .skills .skills__group {
       margin-left: 4rem
   }
