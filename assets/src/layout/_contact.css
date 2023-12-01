@@ -1,31 +1,50 @@
 /* CONTACT START */
 .contact {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   /* image */
   .contact__vignette {
-    width: 25vw;
+    width: 10vw;
     height: auto;
     margin-right: 2rem;
   }
+  /* title */
+  .contact__title {
+    font-family: var(--font-accent);
+    text-align: center;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-normal);
+    margin: 0;
+  }
+
   /* form */
   .contact__form {
     display: flex;
     flex-direction: column;
-    /* title */
-    .contact__title {
-      font-family: var(--font-accent);
-      text-align: center;
-      font-size: var(--font-size-4);
-      font-weight: var(--font-normal);
-      margin: 0;
+    border: 1px solid var(--color-primary);
+    padding: 2rem;
+    /* label */
+    .contact__label {
+      text-transform: uppercase;
     }
     /* input */
     .contact__input {
+      height: 2rem;
+      border: 1px solid var(--color-input-borders);
+      font-size: 1rem;
+      color: var(--color-input-text);
       margin-bottom: 1.5rem;
+    }
+    .comment {
+      resize: none;
+      outline: none;
+      overflow: auto;
+      font-family: inherit;
+      height: 200px;
     }
   }
 }

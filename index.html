@@ -228,23 +228,35 @@
           alt="messenger gives a letter to medieval monk"
           class="contact__vignette"
         />
+
+        <h2 class="contact__title">Drop me a line!</h2>
         <form action="" class="contact__form">
-          <h2 class="contact__title">Drop me a line!</h2>
+          <!-- Name -->
+          <fieldset>
+            <label for="name" class="contact__label">Your Name</label>
+            <input id="name" class="contact__input" type="text" required />
+          </fieldset>
 
-          <label for="name" class="contact__label">Your Name:</label>
-          <input id="name" class="contact__input" type="text" />
+          <!-- Email -->
+          <fieldset>
+            <label for="email" class="contact__label">Your Email</label>
+            <input id="email" class="contact__input" type="email" required />
+          </fieldset>
 
-          <label for="email" class="contact__label">Your Email:</label>
-          <input id="email" class="contact__input" type="email" />
-
-          <label for="contact__message">Say hi &#128526;</label>
-          <textarea
-            name=""
-            id="contact__message"
-            class="contact__input"
-            cols="30"
-            rows="10"
-          ></textarea>
+          <!-- Message -->
+          <fieldset>
+            <label for="contact__message" class="contact__label"
+              >Say hi &#128526;</label
+            >
+            <textarea
+              name=""
+              id="contact__message"
+              class="contact__input comment"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </fieldset>
 
           <button class="submit btn btn--accent">Send</button>
         </form>

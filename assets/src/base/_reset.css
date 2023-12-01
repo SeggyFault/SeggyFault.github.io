@@ -56,3 +56,31 @@ button {
   font-size: inherit;
   line-height: inherit;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  padding-left: 0.5rem;
+}

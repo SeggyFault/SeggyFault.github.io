@@ -4,6 +4,11 @@
   --color-primary: #000;
   --color-secondary: #fff;
   --color-accent: #f79c02;
+  --color-required: #d42a21;
+  --color-invalid: #d42a21;
+  --color-valid: #1faa00;
+  --color-input-border: #eeeeee;
+  --color-input-text: #757575;
 
   --font-main: "Montserrat", sans-serif;
   --font-accent: "Old London", sans-serif;
