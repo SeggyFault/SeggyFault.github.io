@@ -1,6 +1,9 @@
 /* BASE START */
 body {
   font-family: var(--font-main);
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .container,
@@ -9,13 +12,21 @@ body {
   margin: 0 auto;
 }
 
-/* 
-CUSTOM CURSOR DOESN'T WORK
-.test {
+/*VALIDATION*/
+.required {
+  color: var(--color-required);
+}
+input:not(:placeholder-shown):not(:focus):invalid {
+  border: 1px solid var(--color-invalid);
+}
+
+input:not(:placeholder-shown):not(:focus):valid {
+  border: 1px solid var(--color-valid);
+}
+
+/* #cursor {
   width: 100px;
   height: 100px;
-  background: red;
-  cursor: url("../img/cursor.png");
+  background: url("./img/cursor.png"
+  background-repeat: no-repeat;
 } */
-
-/* BASE END */

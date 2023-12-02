@@ -149,7 +149,7 @@
       <!-- SKILLS END -->
 
       <!-- PROJECTS START -->
-      <!-- <div class="test"></div> custom cursor doesn't work-->
+      <!-- <div id="cursor"></div> -->
       <section id="projects" class="projects">
         <div class="container">
           <img
@@ -248,23 +248,48 @@
           alt="messenger gives a letter to medieval monk"
           class="contact__vignette"
         />
-        <form action="" class="contact__form">
-          <h2 class="contact__title">Drop me a line!</h2>
 
-          <label for="name" class="contact__label">Your Name:</label>
-          <input id="name" class="contact__input" type="text" />
+        <h2 class="contact__title">Drop me a line!</h2>
+        <form action="#" method="post" class="contact__form">
+          <!-- Name -->
+          <fieldset>
+            <label for="name" class="contact__label">Your Name</label>
+            <input
+              id="name"
+              class="contact__input"
+              type="text"
+              placeholder="John"
+              required
+            />
+          </fieldset>
 
-          <label for="email" class="contact__label">Your Email:</label>
-          <input id="email" class="contact__input" type="email" />
+          <!-- Email -->
+          <fieldset>
+            <label for="email" class="contact__label">Your Email</label>
+            <input
+              id="email"
+              class="contact__input"
+              type="email"
+              placeholder="john@mail.com"
+              required
+            />
+          </fieldset>
 
-          <label for="contact__message">Say hi &#128526;</label>
-          <textarea
-            name=""
-            id="contact__message"
-            class="contact__input"
-            cols="30"
-            rows="10"
-          ></textarea>
+          <!-- Message -->
+          <fieldset>
+            <label for="contact__message" class="contact__label"
+              >Say hi &#128526;</label
+            >
+            <textarea
+              name=""
+              id="contact__message"
+              class="contact__input comment"
+              cols="30"
+              rows="10"
+              placeholder="Type something here..."
+              required
+            ></textarea>
+          </fieldset>
 
           <button class="submit btn btn--accent">Send</button>
         </form>

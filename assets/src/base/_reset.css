@@ -45,14 +45,30 @@ button {
   border: none;
 }
 
-button:focus:not(:focus-visible) {
-  outline: 0;
-}
-
 input,
 button {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  padding-left: 0.5rem;
 }
