@@ -9,6 +9,7 @@
   --font-accent: "Old London", sans-serif;
 
   --font-size-1: 1rem;
+  --font-size-1-5: calc(1.5 * var(--font-size-1));
   --font-size-2: calc(2 * var(--font-size-1));
   --font-size-3: calc(3 * var(--font-size-1));
   --font-size-4: calc(4 * var(--font-size-1));
@@ -116,6 +117,41 @@ button {
   }
 @media only screen and (min-width: 600px) {
 .header .mobile-nav__icon {
+      display: none
+  }
+    }
+/* mobile nav */
+.header .mobile__nav {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-primary);
+  }
+.header .mobile__nav .nav__list--mobile {
+      height: 100vh;
+      display: flex;
+      gap: 2rem;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+.header .mobile__nav .nav__list--mobile .list__item--mobile {
+        text-align: center;
+        width: 50vw;
+        border-bottom: 1px solid var(--color-secondary);
+        border-top: 1px solid var(--color-secondary);
+        padding: 2rem;
+      }
+.header .mobile__nav .nav__list--mobile .list__item--mobile .nav__link {
+          font-size: var(--font-size-1-5);
+          color: var(--color-secondary);
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+@media only screen and (min-width: 600px) {
+.header .mobile__nav {
       display: none
   }
     }

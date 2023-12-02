@@ -25,14 +25,34 @@
 
     <link rel="stylesheet" href="./dist/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Scripts -->
+    <script src="./dist/main.js"></script>
   </head>
   <body>
     <!-- HEADER START -->
     <header id="about" class="header">
       <!-- Mobile nav -->
-      <a href="#" class="mobile-nav__link">
+      <a id="mobile-nav-button" href="#" class="mobile-nav__link">
         <i class="mobile-nav__icon fa-solid fa-bars fa-xl"></i>
       </a>
+      <!-- [Hidden] -->
+      <nav id="mobile__nav" class="mobile__nav">
+        <ul class="nav__list--mobile">
+          <li class="list__item--mobile">
+            <a href="#about" class="nav__link">about me</a>
+          </li>
+          <li class="list__item--mobile">
+            <a href="#skills" class="nav__link">skills</a>
+          </li>
+          <li class="list__item--mobile">
+            <a href="#projects" class="nav__link">projects</a>
+          </li>
+          <li class="list__item--mobile">
+            <a href="#contact" class="nav__link">contacts</a>
+          </li>
+        </ul>
+      </nav>
+
       <!-- Desktop nav -->
       <nav class="header__nav">
         <ul class="nav__list">
