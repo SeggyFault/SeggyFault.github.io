@@ -129,7 +129,7 @@
       <!-- SKILLS END -->
 
       <!-- PROJECTS START -->
-      <!-- <div class="test"></div> custom cursor doesn't work-->
+      <!-- <div id="cursor"></div> -->
       <section id="projects" class="projects">
         <div class="container">
           <img
@@ -230,17 +230,29 @@
         />
 
         <h2 class="contact__title">Drop me a line!</h2>
-        <form action="" class="contact__form">
+        <form action="#" method="post" class="contact__form">
           <!-- Name -->
           <fieldset>
             <label for="name" class="contact__label">Your Name</label>
-            <input id="name" class="contact__input" type="text" required />
+            <input
+              id="name"
+              class="contact__input"
+              type="text"
+              placeholder="John"
+              required
+            />
           </fieldset>
 
           <!-- Email -->
           <fieldset>
             <label for="email" class="contact__label">Your Email</label>
-            <input id="email" class="contact__input" type="email" required />
+            <input
+              id="email"
+              class="contact__input"
+              type="email"
+              placeholder="john@mail.com"
+              required
+            />
           </fieldset>
 
           <!-- Message -->
@@ -254,6 +266,7 @@
               class="contact__input comment"
               cols="30"
               rows="10"
+              placeholder="Type something here..."
               required
             ></textarea>
           </fieldset>

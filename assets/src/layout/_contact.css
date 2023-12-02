@@ -32,16 +32,19 @@
       text-transform: uppercase;
     }
     /* input */
+    .contact__input,
+    .comment {
+      border: 1px solid var(--color-input-border);
+    }
+
     .contact__input {
       height: 2rem;
-      border: 1px solid var(--color-input-borders);
       font-size: 1rem;
       color: var(--color-input-text);
       margin-bottom: 1.5rem;
     }
     .comment {
       resize: none;
-      outline: none;
       overflow: auto;
       font-family: inherit;
       height: 200px;
