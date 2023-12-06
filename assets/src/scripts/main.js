@@ -9,3 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 });
+
+// Custom cursor
+const myCursor = document.querySelector(".cursor");
+const positionElement = (e) => {
+  const mouseY = e.clientY;
+  const mouseX = e.clientX;
+  myCursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0);`;
+};
+
+window.addEventListener("mousemove", positionElement);

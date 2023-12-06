@@ -58,12 +58,14 @@ input:not(:-moz-placeholder-shown):not(:focus):valid {
 input:not(:placeholder-shown):not(:focus):valid {
   border: 1px solid var(--color-valid);
 }
-/* #cursor {
+.cursor {
   width: 100px;
   height: 100px;
-  background: url("./img/cursor.png"
+  background: url(/images/cursor.png?1ca7c6a5bb6160dcc0e890039966dc13);
   background-repeat: no-repeat;
-} */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 *,
 *::before,
 *::after {

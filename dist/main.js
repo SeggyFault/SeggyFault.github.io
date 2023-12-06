@@ -17,6 +17,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Custom cursor
+var myCursor = document.querySelector(".cursor");
+var positionElement = function positionElement(e) {
+  var mouseY = e.clientY;
+  var mouseX = e.clientX;
+  myCursor.style.transform = "translate3d(".concat(mouseX, "px, ").concat(mouseY, "px, 0);");
+};
+window.addEventListener("mousemove", positionElement);
+
 /***/ }),
 
 /***/ "./assets/src/main.css":
