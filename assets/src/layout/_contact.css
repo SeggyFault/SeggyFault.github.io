@@ -1,5 +1,6 @@
 /* CONTACT START */
 .contact {
+  background-color: var(--color-secondary);
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -10,7 +10,7 @@
 .slide {
   position: relative;
   padding: 25vh 10%;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   box-sizing: border-box;
   transform-style: inherit;
@@ -105,5 +105,4 @@
     }
   }
 }
-
 /* SKILLS END*/
