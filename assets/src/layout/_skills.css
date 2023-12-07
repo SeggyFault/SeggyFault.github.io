@@ -1,10 +1,44 @@
 /* SKILLS START*/
+.parallax-container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slide,
+.slide:before {
+  background: 50% 50% / cover;
+}
+
+#slide1:before {
+  background-image: url("./img/skills-img.png");
+  background-color: var(--color-primary);
+  transform: translateZ(-1px) scale(2);
+}
 
 .skills {
   display: flex;
-  background: var(--color-primary);
   min-height: 100vh;
-  background-image: url("./img/skills-img.png");
   background-repeat: no-repeat;
   background-position: left;
   @media only screen and (min-width: 600px) {
@@ -22,6 +56,7 @@
     @media only screen and (min-width: 600px) and (max-width: 1180px) {
       margin-left: 4rem;
     }
+
     /* skill */
     .skill {
       margin-bottom: 4rem;

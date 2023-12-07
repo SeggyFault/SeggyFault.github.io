@@ -414,11 +414,41 @@ p {
   color: var(--color-primary);
 }
 /* SKILLS START*/
+.parallax-container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.slide,
+.slide:before {
+  background: 50% 50% / cover;
+}
+#slide1:before {
+  background-image: url(/images/skills-img.png?f7509b5eb5a080358169f15cb48110ae);
+  background-color: var(--color-primary);
+  transform: translateZ(-1px) scale(2);
+}
 .skills {
   display: flex;
-  background: var(--color-primary);
   min-height: 100vh;
-  background-image: url(/images/skills-img.png?f7509b5eb5a080358169f15cb48110ae);
   background-repeat: no-repeat;
   background-position: left;
 }
