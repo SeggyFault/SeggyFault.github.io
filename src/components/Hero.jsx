@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -8,8 +9,8 @@ const Hero = () => {
       <p className="text-2xl text-white font-extralight font-lato">Portfolio of a <span className="font-bold">Dev Cadet Sasha</span>, the kind of genius who can code a missile’s trajectory and design the explosion to look like modern art!</p>
 
       <div className="flex gap-2 mt-4">
-        <Button label="GitHub" href="https://github.com/SeggyFault" />
-        <Button label="Linkedin" href="https://www.linkedin.com/in/omasiukevych/" />
+        <Button label="GitHub" href="https://github.com/SeggyFault" icon={FaGithub} />
+        <Button label="Linkedin" href="https://www.linkedin.com/in/omasiukevych/" icon={FaLinkedin} />
       </div>
       
     </div>
