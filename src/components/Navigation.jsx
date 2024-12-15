@@ -1,11 +1,11 @@
 const Navigation = () => {
   return (
-    <nav className="flex items-center justify-between w-full max-w-[1140px] my-0 mx-auto px-5">
+    <nav className="flex items-center justify-between w-full max-w-[1140px] my-0 mx-auto px-5 py-5 z-10 relative">
       <a href="/">
         <img 
         src="./src/assets/images/rat.png" 
         alt="rat icon" 
-        className="w-16"/>
+        className="w-12"/>
       </a>
       <ul className="flex items-center justify-between w-1/2">
         <li className="text-base text-white uppercase font-lato hover:underline">
