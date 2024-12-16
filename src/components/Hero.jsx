@@ -9,8 +9,8 @@ const Hero = () => {
       <p className="text-xl text-white md:text-2xl font-extralight font-lato">Portfolio of a <span className="font-bold">Dev Cadet Sasha</span>, the kind of genius who can code a missile’s trajectory and design the explosion to look like modern art!</p>
 
       <div className="flex flex-col gap-2 mt-4 sm:flex-row">
-        <Button label="GitHub" href="https://github.com/SeggyFault" icon={FaGithub} />
-        <Button label="Linkedin" href="https://www.linkedin.com/in/omasiukevych/" icon={FaLinkedin} />
+        <Button label="GitHub" href="https://github.com/SeggyFault" icon={FaGithub} className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" />
+        <Button label="Linkedin" href="https://www.linkedin.com/in/omasiukevych/" icon={FaLinkedin} className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" />
       </div>
       
     </div>
