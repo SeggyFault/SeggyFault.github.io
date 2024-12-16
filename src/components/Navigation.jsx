@@ -17,7 +17,7 @@ const Navigation = () => {
           <a href="#skills">Skills</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#projects">Projects</a>
+          <a href="#completed-missions">Completed Missions</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#about">About</a>
