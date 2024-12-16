@@ -1,6 +1,6 @@
 const Tag = ({ label }) => {
   return (
-    <div className="px-4 py-2 text-black border border-black rounded-lg">{label}</div>
+    <div className="px-2 py-1 text-xs text-gray-500 bg-yellow-300 rounded-md">{label}</div>
   );
 };
 
