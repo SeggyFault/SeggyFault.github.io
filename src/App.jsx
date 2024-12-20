@@ -1,6 +1,7 @@
 import Header from "./components/Header";
-import ProjectCard from "./components/ProjectCard";
 import Skills from "./components/Skills";
+import ProjectCard from "./components/ProjectCard";
+import Contact from "./components/Contact";
 
 function App() {
   
@@ -58,6 +59,15 @@ function App() {
               ))}
           </div>
         </section>
+
+      {/* Contact */}
+      <div className="px-5 py-10 bg-gray-100 md:py-20">
+        <section id="contact" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto">
+          <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-6xl font-russo">Drop me a line!</h2>
+          <Contact />
+        </section>
+      </div>
+
       </div>
       
     </>
