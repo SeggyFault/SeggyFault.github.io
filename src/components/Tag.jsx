@@ -1,6 +1,8 @@
-const Tag = ({ label, className }) => {
+const Tag = ({ title, className }) => {
   return (
-    <div className={className}>{label}</div>
+    <div className={className}>
+      <span>{title}</span>
+    </div>
   );
 };
 
