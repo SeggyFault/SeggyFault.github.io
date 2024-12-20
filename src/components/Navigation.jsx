@@ -14,10 +14,10 @@ const Navigation = () => {
 
       <ul className="hidden w-1/2 md:flex md:items-center md:justify-between">
         <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#skills">Skills</a>
+          <a href="#weapons">Weapons</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#completed-missions">Completed Missions</a>
+          <a href="#missions">Missions</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#about">About</a>

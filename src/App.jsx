@@ -1,7 +1,9 @@
 import Header from "./components/Header";
 import ProjectCard from "./components/ProjectCard";
+import Skills from "./components/Skills";
 
 function App() {
+  
   const projectsData = [
     {
       image: "/assets/images/quisto.svg",
@@ -29,10 +31,20 @@ function App() {
   return (
     <>
       <Header />
-      {/* Projects */}
+      {/* Weapons */}
+      <div className="px-5 py-10 bg-[#161616] md:py-20">
+        <section id="weapons" className="className=min-w-[400px] max-w-[1140px] mx-5 md:mx-auto">
+          <h2 className="mb-6 text-4xl text-center text-white uppercase md:text-left md:text-6xl font-russo">Weapons</h2>
+          <div className="flex gap-2">
+            <Skills />
+          </div>
+        </section>
+      </div>
+
+      {/* Missions */}
       <div className="px-5 py-10 bg-gray-100 md:py-20">
-        <section id="completed-missions" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto">
-          <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-left md:text-6xl font-russo">Completed Missions</h2>
+        <section id="missions" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto">
+          <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-left md:text-6xl font-russo">Missions</h2>
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
             {projectsData.map((project, index) => (
                 <ProjectCard
