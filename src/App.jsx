@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Skills from "./components/Skills";
 import ProjectCard from "./components/ProjectCard";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -66,6 +67,8 @@ function App() {
           <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-6xl font-russo">Drop me a line!</h2>
           <Contact />
         </section>
+        <Footer />
+        
       </div>
 
       </div>
