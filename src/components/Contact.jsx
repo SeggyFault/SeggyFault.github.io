@@ -26,7 +26,7 @@ const Contact = () => {
         icon: "success",
         confirmButtonText: 'OK',
         customClass: {
-        confirmButton: 'bg-black text-white hover:bg-blue-600 border border-blue-500 rounded-md px-6 py-2',
+        confirmButton: 'bg-red-600 text-white uppercase hover:bg-red-700 rounded-md px-6 py-2',
         }
       });
     }
@@ -72,7 +72,7 @@ const Contact = () => {
           required></textarea>
       </div>
 
-      <button className="w-full mt-6 text-base text-white bg-black rounded-md cursor-pointer h-14" type="submit">Send Message</button>
+      <button className="w-full mt-6 text-base text-white uppercase bg-red-600 rounded-md cursor-pointer hover:bg-red-700 h-14" type="submit">Send Message</button>
 
     </form>
   )
