@@ -1,7 +1,7 @@
 import Button from "./Button";
 import Tag from "./Tag";
 
-const ProjectCard = ({ image, tags, title, description, className }) => {
+const ProjectCard = ({ image, tags, title, description, className, githubLink, liveLink }) => {
   return (
     <div className="flex flex-col my-4 transition-all duration-300 transform bg-white shadow-lg rounded-xl hover:translate-y-2 hover:shadow-2xl lg:mt-0">
         <img 
@@ -26,8 +26,8 @@ const ProjectCard = ({ image, tags, title, description, className }) => {
           </div>
         </div>
         <div className="flex gap-2 px-6 pb-6">
-          <Button label="GitHub Repo" className="text-red-600 border border-red-600 hover:bg-red-600 hover:text-white hover:border-red-600" />
-          <Button label="Live" className="text-red-600 border border-red-600 hover:bg-red-600 hover:text-white hover:border-red-600" />
+          <Button href={githubLink} label="GitHub Repo" className="text-red-600 border border-red-600 hover:bg-red-600 hover:text-white hover:border-red-600" />
+          <Button href={liveLink} label="Live" className="text-red-600 border border-red-600 hover:bg-red-600 hover:text-white hover:border-red-600" />
         </div>
 
     </div>
