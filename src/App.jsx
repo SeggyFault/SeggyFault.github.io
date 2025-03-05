@@ -13,21 +13,27 @@ function App() {
       tags: ["React.js", "Tailwind.css", "Git", "Node.js", "Express", "MongoDB"],
       title: "Quisto",
       description: "Revamp of the app using React.js, transforming it into a more dynamic and user-friendly platform. By leveraging React's component-based architecture, I streamlined the user interface and enhanced its responsiveness, ensuring a seamless experience across devices.",
-      className: "bg-[#190E3B]"
+      className: "bg-[#190E3B]",
+      githubLink: "https://github.com/SeggyFault/quisto-frontend",
+      liveLink: "https://quisto.it"
     },
     {
       image: "/assets/images/ertle.png",
       tags: ["Figma", "Wordpress", "Git", "PHP"],
       title: "Egis Ertle",
       description: "Redesign of the Egis Ertle Engineering website, using custom Wordpress theme and Polylang plugin",
-      className: "bg-[#09212C]"
+      className: "bg-[#09212C]",
+      githubLink: "https://github.com/SeggyFault/eee",
+      liveLink: "https://egis-ertle.com"
     },
      {
       image: "/assets/images/abacum.svg",
       tags: ["Twig", "Tailwind.css", "Git", "PostCSS", "Javascript"],
       title: "Abacum",
       description: "Markup using Twig template and Tailwind.css for styling, part of the web dev practice",
-      className: "bg-[#6C0EF2]"
+      className: "bg-[#6C0EF2]",
+      githubLink: "https://github.com/SeggyFault/abacum",
+      liveLink: "https://www.abacum.ai"
     },
   ];
 
@@ -57,6 +63,8 @@ function App() {
                   title={project.title}
                   description={project.description}
                   className={project.className}
+                  githubLink={project.githubLink}
+                  liveLink={project.liveLink}
                 />
               ))}
           </div>
@@ -64,8 +72,8 @@ function App() {
       </div>
 
       {/* About */}
-      <div className="px-5 py-10 bg-gray-100 md:py-20">
-        <section id="about" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto flex flex-col items-center md:items-start justify-center min-h-screen">
+      <div className="px-5 py-10 bg-white md:py-20">
+        <section id="about" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto flex flex-col items-center md:items-start">
           <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-6xl font-russo">About</h2>
           <About />
         </section>
