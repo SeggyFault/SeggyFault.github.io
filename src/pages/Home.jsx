@@ -19,16 +19,15 @@ const Home = () => {
       image: "/assets/images/quisto.svg",
       tags: ["React.js", "Tailwind.css", "Git", "Node.js", "Express", "MongoDB"],
       title: "Quisto",
-      description: "Revamp of the app using React.js, transforming it into a more dynamic and user-friendly platform. By leveraging React's component-based architecture, I streamlined the user interface and enhanced its responsiveness, ensuring a seamless experience across devices.",
+      description: "Revamp of the app using React.js, transforming it into a more dynamic and user-friendly platform. By leveraging React's component-based architecture, I streamlined the user interface and enhanced its responsiveness, ensuring a seamless experience across devices. Quisto has updated their designs in 2025 so no live preview is available.",
       className: "bg-[#190E3B]",
-      githubLink: "https://github.com/SeggyFault/quisto-frontend",
-      liveLink: "https://quisto.it"
+      githubLink: "https://github.com/SeggyFault/quisto-frontend"
     },
     {
       image: "/assets/images/ertle.png",
       tags: ["Figma", "Wordpress", "Git", "PHP"],
       title: "Egis Ertle",
-      description: "Redesign of the Egis Ertle Engineering website, using custom Wordpress theme and Polylang plugin",
+      description: "Redesign of the Egis Ertle Engineering website, using custom Wordpress theme and Polylang plugin.",
       className: "bg-[#09212C]",
       githubLink: "https://github.com/SeggyFault/eee",
       liveLink: "https://egis-ertle.com"
@@ -37,10 +36,9 @@ const Home = () => {
       image: "/assets/images/abacum.svg",
       tags: ["Twig", "Tailwind.css", "Git", "PostCSS", "Javascript"],
       title: "Abacum",
-      description: "Markup using Twig template and Tailwind.css for styling, part of the web dev practice",
+      description: "Markup using Twig template and Tailwind.css for styling, part of the web dev practice. Abacum has updated their designs in 2025 so no live preview is available.",
       className: "bg-[#6C0EF2]",
       githubLink: "https://github.com/SeggyFault/abacum",
-      liveLink: "https://www.abacum.ai"
     },
   ];
 
