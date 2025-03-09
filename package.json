@@ -1,6 +1,7 @@
 {
   "name": "seggyfault-github-io",
   "private": true,
+  "homepage": "https://mavych.me",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
