@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
 
 const Navigation = () => {
@@ -22,6 +23,7 @@ const Navigation = () => {
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#about">About</a>
         </li>
+        <li className="text-base text-white uppercase font-lato hover:underline"><Link to="/blog">Blog</Link></li>
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#contact">Contact</a>
         </li>
