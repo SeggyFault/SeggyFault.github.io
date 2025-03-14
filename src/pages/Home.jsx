@@ -8,7 +8,7 @@ const Home = () => {
   const projectsData = [
     {
       image: "/assets/images/rat.png",
-      tags: ["Figma", "React.js", "Tailwind.css", "Git"],
+      tags: ["Figma", "React.js", "Tailwind.css", "Git", "Vite"],
       title: "Portfolio",
       description: "This portfolio website was built to aim applying modern web development practices to create a clean and responsive design. Through this project, knowledge of component-based architecture, state management, and utility-first styling has been put into practice. The website serves as a representation of skills and a platform to showcase projects.",
       className: "bg-[#afa493]",
