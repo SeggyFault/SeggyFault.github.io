@@ -8,8 +8,8 @@ const Skills = () => {
     <div className="flex flex-wrap gap-2 text-white">
       {skillsData.map((category, index) => (
         <div key={index} className="my-4">
-          <h3 className="mb-5 text-2xl text-white">{category.title}</h3>
-          <div className="flex flex-wrap gap-2">
+          <h3 className="mb-5 text-2xl text-center text-white md:text-left">{category.title}</h3>
+          <div className="flex flex-wrap justify-center gap-2 md:justify-start">
             {category.skills.map((skill, skillIndex) => (
               typeof skill === "object" && skill.image ? (
                 <SkillCard key={skillIndex} image={skill.image} title={skill.title} className="flex flex-col items-center p-10 text-lg text-gray-500 bg-white rounded-md shadow-lg"/>
