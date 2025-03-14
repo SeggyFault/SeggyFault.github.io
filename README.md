@@ -2,10 +2,7 @@
 🎯 This portfolio website was built to aim applying modern web development practices to create a clean and responsive design. Through this project, knowledge of component-based architecture, state management, and utility-first styling has been put into practice. The website serves as a representation of skills and a platform to showcase projects 
  
 ## 🚀 Tech Stack  
-- Figma, React, TailwindCSS, Git, Vite 
- 
-## 📸 Demo  
-![Project Screenshot](screenshot.png)  
+- Figma, React, TailwindCSS, Git, Vite  
  
 ## 🛠️ Features  
 ✅ **Modern Tech Stack** – Built with **React.js**, styled with **TailwindCSS**, and powered by **Vite** for fast development  
@@ -15,7 +12,7 @@
 ✅ **Project Showcase** – Features a portfolio section displaying past work with project details  
 ✅ **Smooth Animations** – Subtle animations and transitions for an engaging user experience  
 ✅ **Accessibility-First Approach** – Follows **ARIA guidelines**, proper **keyboard navigation**, and **semantic HTML** to ensure an inclusive experience for all users  
-✅ **Deployed & Live** – Easily accessible at **[mavych.me](https://mavych.me)** 
+✅ **Deployed & Live**
 
 ## 🔗 Live Demo  
 [Portfolio](https://mavych.me)
