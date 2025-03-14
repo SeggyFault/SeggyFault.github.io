@@ -34,9 +34,9 @@ const Home = () => {
     },
     {
       image: "/assets/images/abacum.svg",
-      tags: ["Twig", "Tailwind.css", "Git", "PostCSS", "Javascript"],
+      tags: ["Pug", "Tailwind.css", "Git", "PostCSS", "Javascript"],
       title: "Abacum",
-      description: "Markup using Twig template and Tailwind.css for styling, part of the web dev practice. Abacum has updated their designs in 2025 so no live preview is available.",
+      description: "Markup using Pug template and Tailwind.css for styling, part of the web dev practice. Abacum has updated their designs in 2025 so no live preview is available.",
       className: "bg-[#6C0EF2]",
       githubLink: "https://github.com/SeggyFault/abacum",
     },
