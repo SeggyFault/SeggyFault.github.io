@@ -23,6 +23,14 @@ const Home = () => {
       className: "bg-[#09212C]",
       liveLink: "https://egis-ertle.com"
     },
+    {
+      image: "/assets/images/abacum.svg",
+      tags: ["Pug", "Tailwind.css", "Git", "PostCSS", "Javascript"],
+      title: "Abacum",
+      description: "Markup using Pug template and Tailwind.css for styling, part of the web dev practice. Abacum has updated their designs in 2025 so no live preview is available.",
+      className: "bg-[#6C0EF2]",
+      githubLink: "https://github.com/SeggyFault/abacum",
+    },
   ];
 
   return (
