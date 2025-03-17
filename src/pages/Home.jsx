@@ -29,7 +29,6 @@ const Home = () => {
       title: "Egis Ertle",
       description: "Redesign of the Egis Ertle Engineering website, using custom Wordpress theme and Polylang plugin.",
       className: "bg-[#09212C]",
-      githubLink: "https://github.com/SeggyFault/eee",
       liveLink: "https://egis-ertle.com"
     },
     {
