@@ -15,7 +15,7 @@ const blogPosts = [
     id: 2,
     image: "/assets/images/MigraCodeCert.png",
     title: "Taking a Moment to Celebrate: My Full Stack Bootcamp Journey",
-    date: "March 9, 2025",
+    date: "March 23, 2025",
     content: `
       It's been a while since I graduated from the MigraCode Full Stack bootcamp, but only now have I had the time to reflect on the course and on some life lessons I've learned.
       One key realization is how important it is to properly celebrate achievements without immediately looking ahead, feeling unsatisfied, or frustrated by the work that still needs to be done. 
@@ -24,5 +24,8 @@ const blogPosts = [
   },
 
 ];
+
+const sortedBlogPosts = blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
 
 export default blogPosts;
