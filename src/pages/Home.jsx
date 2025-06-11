@@ -7,6 +7,15 @@ import Footer from "../components/Footer";
 const Home = () => {
   const projectsData = [
     {
+      image: "/assets/images/Dezignlabs.svg",
+      tags: ["Figma", "React.js", "Tailwind.css", "Git", "Vite", "Agile"],
+      title: "Dezignlabs",
+      description: "DezignLabs is an independent design communications agency whose website serves as a sleek, modern landing page to build trust and forge connections between games and players. Built with React, Vite and Tailwind CSS, it features elegant gradients, thoughtful layouts, and interactive icons. The site highlights the agency’s mission, client portfolio, and services, reflecting a polished brand identity and strong visual communication.",
+      className: "bg-[#7F30FD]",
+      githubLink: "https://github.com/SeggyFault/dezignLabs-frontend",
+      liveLink: "https://dezignlabs.co/"
+    },
+    {
       image: "/assets/images/rat.png",
       tags: ["Figma", "React.js", "Tailwind.css", "Git", "Vite"],
       title: "Portfolio",
