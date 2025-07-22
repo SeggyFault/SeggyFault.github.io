@@ -10,6 +10,10 @@ so I can redesign it to be clearer, more persuasive, and more user-centered.
 - Explore common pain points or frustrations when reviewing online portfolios (navigation issues, clutter, too much text, missing context)
 - Discover what persuades visitors to contact the designer or learn more (clear call to action, accessible contact info, compelling about page)
 - Learn how **peer designers** and **mentors** evaluate portfolios differently from recruiters (feedback focus, process depth, craft vs. business impact)
+- Measure key behavioral patterns:
+  - Average time spent on a portfolio
+  - Number of projects typically reviewed
+  - Where users drop off or lose interest
 
 ## Research scope:
 
