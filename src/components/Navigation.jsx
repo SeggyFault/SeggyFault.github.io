@@ -24,10 +24,10 @@ const Navigation = () => {
       {/* Desktop Menu */}
       <ul className="hidden w-1/2 md:flex md:items-center md:justify-between">
         <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#skills">Skills</a>
+          <a href="#works">Works</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#works">Works</a>
+          <a href="#skills">Skills</a>
         </li>
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#about">About</a>
@@ -42,10 +42,10 @@ const Navigation = () => {
       {isMenuOpen && (
         <ul className="fixed top-0 left-0 w-full h-full z-[10] bg-[#161616] flex flex-col items-center gap-16 py-16 md:hidden">
           <li className="text-5xl text-white uppercase font-lato hover:underline">
-            <a href="#skills" onClick={toggleMenu}>Skills</a>
+            <a href="#works" onClick={toggleMenu}>Works</a>
           </li>
           <li className="text-5xl text-white uppercase font-lato hover:underline">
-            <a href="#works" onClick={toggleMenu}>Works</a>
+            <a href="#skills" onClick={toggleMenu}>Skills</a>
           </li>
           <li className="text-5xl text-white uppercase font-lato hover:underline">
             <a href="#about" onClick={toggleMenu}>About</a>
