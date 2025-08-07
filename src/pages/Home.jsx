@@ -1,6 +1,5 @@
 import Skills from "../components/Skills";
 import ProjectCard from "../components/ProjectCard";
-import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -72,14 +71,6 @@ const Home = () => {
           <div className="flex gap-2">
             <Skills />
           </div>
-        </section>
-      </div>
-
-      {/* About */}
-      <div className="px-5 py-10 bg-white md:py-20">
-        <section id="about" className="min-w-[400px] max-w-[1140px] mx-5 md:mx-auto flex flex-col items-center md:items-start">
-          <h2 className="mb-6 text-4xl text-center text-black uppercase md:text-6xl font-russo">About</h2>
-          <About />
         </section>
       </div>
 

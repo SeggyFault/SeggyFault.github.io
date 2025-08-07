@@ -1,9 +1,14 @@
-const Button = ({ icon: Icon, label, href, className, isDownload = false}) => {
+const Button = ({ icon: Icon, label, href, className = '', isDownload = false}) => {
   return (
-    <button className={`flex items-center justify-center gap-2 px-4 py-2 text-base uppercase rounded-lg font-lato ${className}`}>
-      {Icon && <Icon className="text-white" />}
-      <a href={href} target="_blank" download={isDownload ? true : undefined} >{label}</a>
-    </button>
+      <a 
+        href={href} 
+        target="_blank" 
+        className={`flex items-center justify-center py-2 px-4 text-base uppercase rounded-lg font-lato ${className}`}
+        download={isDownload || undefined}
+      >
+        {Icon && <Icon className="text-white" />}
+        {label && <span>{label}</span>}
+      </a>
   );
 };
 

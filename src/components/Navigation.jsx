@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdMenu, MdClose } from "react-icons/md";
+import Button from "./Button";
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,12 +31,26 @@ const Navigation = () => {
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#skills">Skills</a>
         </li>
-        <li className="text-base text-white uppercase font-lato hover:underline">
-          <a href="#about">About</a>
-        </li>
         <li className="text-base text-white uppercase font-lato hover:underline"><Link to="/blog">Blog</Link></li>
         <li className="text-base text-white uppercase font-lato hover:underline">
           <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <ul className="flex gap-2 mx-2">
+            <li>
+            <Button 
+              href="https://github.com/SeggyFault" 
+              icon={FaGithub} className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" 
+            />
+            </li>
+            <li>
+            <Button 
+              href="https://www.linkedin.com/in/omasiukevych/" 
+              icon={FaLinkedin} 
+              className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" 
+            />
+            </li>
+          </ul>
         </li>
       </ul>
 
@@ -48,13 +64,27 @@ const Navigation = () => {
             <a href="#skills" onClick={toggleMenu}>Skills</a>
           </li>
           <li className="text-5xl text-white uppercase font-lato hover:underline">
-            <a href="#about" onClick={toggleMenu}>About</a>
-          </li>
-          <li className="text-5xl text-white uppercase font-lato hover:underline">
             <Link to="/blog" onClick={toggleMenu}>Blog</Link>
           </li>
           <li className="text-5xl text-white uppercase font-lato hover:underline">
             <a href="#contact" onClick={toggleMenu}>Contact</a>
+          </li>
+          <li>
+            <ul className="flex gap-2 mx-2">
+              <li>
+              <Button 
+                href="https://github.com/SeggyFault" 
+                icon={FaGithub} className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" 
+              />
+              </li>
+              <li>
+              <Button 
+                href="https://www.linkedin.com/in/omasiukevych/" 
+                icon={FaLinkedin} 
+                className="text-white border border-white hover:bg-red-600 hover:text-white hover:border-red-600" 
+              />
+              </li>
+            </ul>
           </li>
         </ul>
       )}
